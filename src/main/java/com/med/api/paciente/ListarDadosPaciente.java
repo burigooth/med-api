@@ -1,8 +1,8 @@
 package com.med.api.paciente;
 
-public record ListarDadosPaciente(String nome, String email) {
+public record ListarDadosPaciente(Long id, String nome, String email) {
 
     public ListarDadosPaciente(Paciente paciente) {
-        this(paciente.getNome(), paciente.getEmail());
+        this(paciente.getId(), paciente.getNome(), paciente.getEmail());
     }
 }
