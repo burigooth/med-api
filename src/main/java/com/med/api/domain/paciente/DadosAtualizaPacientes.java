@@ -1,4 +1,4 @@
-package com.med.api.paciente;
+package com.med.api.domain.paciente;
 
 import jakarta.validation.constraints.NotNull;
 

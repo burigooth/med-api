@@ -1,6 +1,6 @@
 package com.med.api.controller;
 
-import com.med.api.paciente.*;
+import com.med.api.domain.paciente.*;
 import jakarta.validation.Valid;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
